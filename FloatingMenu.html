@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<style>
+  body {
+    background-image: url('https://i.stack.imgur.com/jGlzr.png');
+  }
+  main {
+    margin-bottom: 200%;
+  }
+  .fmenu {
+
+    background: rgb(5, 226, 255);
+      width: 250px;
+    height: 310px;
+    z-index: 100;
+    position: fixed;
+  }
+  .fmenu a, 
+  .fmenu h3 {
+    font-size: 0.9em;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    padding: 16.5px;
+    color: rgb(126, 126, 126);
+    
+  }
+  .fmenu h3{
+      text-align: center;
+      font-size: large;
+      color: black;
+    margin: 5px;
+  }
+
+  .fmenu a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  }
+  .fmenu a{
+      font-weight: bold;
+  }
+
+</style>
+<body>
+<main>
+  <p style="font-size: 25px; font-weight: bold;">This is a website design with floating menu, Scroll down and see the menu remain fixed</p>
+  <nav class="fmenu">
+    <h3  >Floating Menu</h3>
+    <a href=""><span class="material-icons">home</span>  Home</a>
+    <a href=""><span class="material-icons">perm_identity </span>  Profile</a>
+    <a href=""><span class="material-icons">call </span>  Contact</a>
+    <a href=""><span class="material-icons">power_settings_new </span>  Logout</a>
+    
+  </nav>
+</main>
+</body>
+</html>

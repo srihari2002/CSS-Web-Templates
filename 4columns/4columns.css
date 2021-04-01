@@ -1,0 +1,35 @@
+div.header{
+    position: sticky;
+    background-color: rgb(0, 201, 174);
+    padding: 20px;
+    top: 0px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 20% 40% 20%;
+}
+
+.container >div{
+
+     
+    padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+.container >div>h{
+    font-weight: bolder ;
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        display: block;
+      
+    }
+}
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dynamic with Header and Footer</title>
+
+<style>
+
+    
+body{
+  margin:0;
+  padding:0;
+  background-color: rgb(221, 213, 213);
+  line-height: 1.5em;
+  }
+  
+ 
+  div.header{
+    position: sticky;
+    background-color: rgb(122, 122, 122);
+    padding: 20px;
+    top: 0px;
+   
+    font-size: 28px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+  
+  
+  #contentwrapper{
+  float: left;
+  width: 100%;
+  }
+  
+  #contentcolumn{
+  margin: 0 20% 0 20%; 
+  }
+  
+  #leftcolumn{
+  float: left;
+  width: 20%;  
+  margin-left: -100%;
+   height:120vh;
+  background: #88ffff;
+  }
+  
+  #rightcolumn{
+  float: right;
+  width: 20%; 
+  height: max-content;
+  margin-left: -20%;  
+  height:120vh;
+  background: #ff92d5;
+  }
+  
+ 
+  
+  
+  .innertube{
+  margin: 10px;  
+  margin-top: 0;
+  }
+  
+  
+  
+  @media (max-width: 840px){  
+    
+    #rightcolumn{
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    clear: both;
+    }
+    
+    #contentcolumn{
+    margin-right: 0;
+    }
+    #leftcolumn{
+    float: none;
+    width: 100%;
+    clear: both;
+    margin-left: 0;
+    }
+    
+    #contentcolumn{
+    margin-left: 0;
+    }
+  }
+  
+
+</style>
+
+ 
+
+</head>
+<body>
+  <div class="header">Header</div>
+
+<div id="maincontainer">
+
+
+<div id="contentwrapper">
+<div id="contentcolumn">
+<div class="innertube"><b>Content Column</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt architecto, impedit eaque delectus cupiditate officiis iure quae consequatur illo, facilis corporis? Error id quia eum nihil nemo corporis, iste enim aliquid alias voluptatum voluptate temporibus! Doloremque nam, eius minus perspiciatis maxime recusandae. Quos omnis quam facere placeat repudiandae, accusamus atque incidunt iure consequuntur vero, ex laborum sed animi aperiam quia assumenda facilis voluptate! Placeat iusto odit quaerat, dolorum fuga temporibus, perspiciatis enim odio dolore recusandae unde incidunt ipsum laudantium atque minima consequatur asperiores consectetur harum quidem, praesentium porro excepturi ipsam. Fugiat perspiciatis laudantium atque sed? Magnam similique repellendus natus nobis, tempore id blanditiis dolore voluptates molestiae deleniti officia ipsa architecto qui perferendis eum porro illum a ex quae, nostrum accusamus. Ea, quas molestiae. Aliquid, nobis ullam? Maiores officiis dolore distinctio hic eius! Reiciendis sapiente, nesciunt reprehenderit culpa ut commodi vel harum labore. Quaerat ex, soluta vitae voluptatibus, iusto tempore odio hic minima animi ratione optio aliquam nostrum nihil, perferendis ipsa modi beatae libero voluptates quisquam! Officiis, unde veritatis! Unde ut ipsam sed voluptatibus odit laboriosam doloribus. Vel, ipsa consectetur. Nulla harum odit, enim reiciendis earum ut in corrupti consectetur numquam, quas quod. Sit vero eos autem sapiente, maiores aperiam ex quibusdam deserunt molestias illum, eius distinctio sunt nulla odit temporibus magni in consequuntur ea aliquid et aut beatae aspernatur dolorum. Minima doloribus ullam molestiae. Alias nostrum, adipisci earum repellendus dolores iusto necessitatibus dignissimos ad rem itaque enim facilis, sapiente molestiae veniam ducimus illum sit architecto sint reprehenderit deleniti similique ipsam ut numquam? Sequi repudiandae vero modi optio alias quibusdam quisquam odio dolorum itaque excepturi, magni magnam ipsum. Veritatis quas molestiae veniam. Ipsam quas velit ex sequi tempore sapiente incidunt voluptates perferendis. Ex provident laborum qui vero nobis, eum veniam incidunt accusamus ipsa ut aut beatae, nemo velit consequatur quaerat maxime!</div>
+</div>
+</div>
+
+<div id="leftcolumn">
+<div class="innertube"><b style="color: rgb(0, 0, 0);">Left </b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse impedit tempore id a repellat autem qui vero, nesciunt quo, deleniti libero, inventore dolor atque veritatis illo ducimus distinctio voluptates explicabo. Rerum, non! Necessitatibus sint optio nostrum animi porro error consequuntur numquam esse maiores at, natus sit pariatur rem sequi corrupti non labore exercitationem! Nostrum corporis fugit accusamus ipsum voluptatem rerum magni unde enim harum pariatur in assumenda earum maxime molestias excepturi esse, nulla quaerat sint omnis. Tempore quos nesciunt perspiciatis impedit adipisci commodi, nemo earum illo reiciendis dolorem fugit ullam tenetur in, et, blanditiis voluptas! Dolore, inventore! Autem saepe repellat blanditiis ducimus dolores, aliquam ipsam provident delectus dicta pariatur molestias iusto quibusdam rem eligendi cum. Deserunt sint ratione, sit illum atque totam omnis. Nulla similique commodi corporis quasi sed ex ut nam aliquid illum facilis ratione, alias incidunt! Maxime, nobis.</div>
+</div>
+
+<div id="rightcolumn">
+<div class="innertube"><b style="color: rgb(0, 0, 0);">Right </b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse impedit tempore id a repellat autem qui vero, nesciunt quo, deleniti libero, inventore dolor atque veritatis illo ducimus distinctio voluptates explicabo. Rerum, non! Necessitatibus sint optio nostrum animi porro error consequuntur numquam esse maiores at, natus sit pariatur rem sequi corrupti non labore exercitationem! Nostrum corporis fugit accusamus ipsum voluptatem rerum magni unde enim harum pariatur in assumenda earum maxime molestias excepturi esse, nulla quaerat sint omnis. Tempore quos nesciunt perspiciatis impedit adipisci commodi, nemo earum illo reiciendis dolorem fugit ullam tenetur in, et, blanditiis voluptas! Dolore, inventore! Autem saepe repellat blanditiis ducimus dolores, aliquam ipsam provident delectus dicta pariatur molestias iusto quibusdam rem eligendi cum. Deserunt sint ratione, sit illum atque totam omnis. Nulla similique commodi corporis quasi sed ex ut nam aliquid illum facilis ratione, alias incidunt! Maxime, nobis.</div>
+</div>
+
+
+
+</div>
+
+</body>
+</html>
